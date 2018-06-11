@@ -12,4 +12,10 @@ Once you get into the workforce, building out comps that reflect the designer's 
 
 Your challenge is to recreate the following image using HTML and CSS. You've been given some initial files to get started that you must use.
 
+### Base Requirements
+
+  - Only work for one hour!
+  - Use the existing `index.html` and `master.css`, and include a screenshot of your work in a browser
+  - Submit your work through a PR
+
 ![this](dog-party-spec.png).
