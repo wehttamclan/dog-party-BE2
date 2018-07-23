@@ -1,0 +1,27 @@
+html {
+  background-image: url(../../images/park.jpg);
+  background-size: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  height: 50px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  margin-left: 20%;
+  margin-right: 20%;
+  width: auto;
+  right: 10%;
+  left: 10%;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
