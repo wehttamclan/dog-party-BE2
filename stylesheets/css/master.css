@@ -1,22 +1,54 @@
 body {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 50px auto 50px;
-  background-image: url(../../images/park.jpg);
-  background-size: 100%;
+  max-width: 1000px;
 }
 
 nav {
   display: grid;
   grid-template: 50px / 100px auto 150px;
-  background-color: #4fefef;
+  background-color: #92e0e5;
+  border-top: 5px;
+  border-color: black;
 }
 
 footer {
-  grid-column: 1 / -1;
-  position: absolute;
+  display: grid;
+  justify-items: center;
+  background-color: #3f8da7;
+  /* position: absolute; */
   bottom: 0;
 }
+
+header {
+  display: grid;
+  justify-items: center;
+  background-size: 100%;
+  padding: 20px;
+  background-image: url(../../images/park.jpg);
+}
+
+img {
+  border-radius: 50%;
+  width: 150px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr 2fr 1fr;
+  grid-gap: 5px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.dog-section {
+  display: grid;
+  justify-items: center;
+}
+
 
 .nav-links {
   display: grid;
@@ -25,6 +57,11 @@ footer {
 
 .right-nav-link {
   color: white;
+}
+
+.social-icons {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #nav-pup {
