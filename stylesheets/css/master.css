@@ -1,27 +1,37 @@
-html {
+body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 50px auto 50px;
   background-image: url(../../images/park.jpg);
   background-size: 100%;
 }
 
 nav {
-  display: flex;
-  justify-content: flex-end;
-  align-content: center;
-  height: 50px;
+  display: grid;
+  grid-template: 50px / 100px auto 150px;
+  background-color: #4fefef;
 }
 
 footer {
+  grid-column: 1 / -1;
   position: absolute;
   bottom: 0;
-  margin-left: 20%;
-  margin-right: 20%;
-  width: auto;
-  right: 10%;
-  left: 10%;
 }
 
 .nav-links {
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.right-nav-link {
+  color: white;
+}
+
+#nav-pup {
+  height: 40px;
+}
+
+#left-nav {
+  padding: 5px;
+  padding-left: 20px;
 }
